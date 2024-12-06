@@ -4,8 +4,8 @@ cocktailId = searchString[1]
 
 
 const nutrionIxURL = "https://trackapi.nutritionix.com/v2/natural/nutrients"
-const appId = "877e0602"
-const appKey = "9c96f922fd03f229782ebd80f468e923"
+const appId = "b7b5026c"
+const appKey = "41069590f031cbec6925acafe29900ad"
 const ingredientsRow = document.getElementById('ingredients');
 
 
