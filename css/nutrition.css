@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.nutrition-label {
+    max-width: 300px;
+    background: white;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+.nutrition-label h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+}
+.section {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.section:last-child {
+    border-bottom: none;
+}
+.calories {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.daily-values {
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+.nutrient {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+.nutrient strong {
+    font-weight: bold;
+}
+.footnote {
+    font-size: 0.75em;
+    margin-top: 10px;
+}
